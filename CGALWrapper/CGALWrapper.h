@@ -21,4 +21,5 @@ extern "C" {
     CGALWRAPPER_API int PartitionPolygonOptimal(double* inputXY, int count, double* outputXY, int* polygonSizes, int maxPolygons);
     CGALWRAPPER_API int PartitionPolygonMonotone(double* inputXY, int count, double* outputXY, int* polygonSizes, int maxPolygons);
 
+    CGALWRAPPER_API int ComputeSkeleton(double* inputXY, int count, double* outputXY, int* edgePairs, int maxEdges);
 }
